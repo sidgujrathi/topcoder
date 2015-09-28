@@ -37,14 +37,11 @@ test_case5 = {
 
 }
 
-
-
 console.log("\n Case 1, Expected Result: "+test_case1.expected+", Output: "+findBoy(test_case1.girl, test_case1.boys));
 console.log("\n Case 2, Expected Result: "+test_case2.expected+", Output: "+findBoy(test_case2.girl, test_case2.boys));
 console.log("\n Case 3, Expected Result: "+test_case3.expected+", Output: "+findBoy(test_case3.girl, test_case3.boys));
 console.log("\n Case 4, Expected Result: "+test_case4.expected+", Output: "+findBoy(test_case4.girl, test_case4.boys));
 console.log("\n Case 4, Expected Result: "+test_case5.expected+", Output: "+findBoy(test_case5.girl, test_case5.boys));
-
 
 function findBoy(girl, boys) {
   boys.sort(); 
